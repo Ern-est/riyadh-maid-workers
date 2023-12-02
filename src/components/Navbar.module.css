@@ -5,10 +5,10 @@
   border-top: 4px solid #ff9900;
   border-bottom: 4px solid #ff9900;
   padding:10px;
-  width: 80%;
+  width: 70%;
   justify-content: center;
   align-items: center;
-  margin: 2rem 1rem 0rem 8rem;
+  margin: 0 auto;
 }
 
 .row {
@@ -26,7 +26,7 @@
 .searchButton, .wifiButton, .samplePage {
   background-color: rgb(247, 134, 43);
   color: white;
-  padding: 8px;
+  padding: 4px;
   border: none;
   cursor: pointer;
   display: flex;
@@ -34,7 +34,7 @@
 }
 
 .searchButton img, .wifiButton img {
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .searchInput {
@@ -58,11 +58,17 @@
 }
 
 .normalText {
-  color: #333;
+  color: rgb(119, 116, 116);
+  font-size: 12px;
+  margin: 0rem 0rem 2rem 36rem;
 }
 
 .navGroup {
   display: flex;
+  background-color: rgb(20, 20, 20);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .navItem {

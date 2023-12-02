@@ -22,7 +22,7 @@ const Navbar = () => {
         <span className={styles.samplePage}>Sample Page</span>
       </div>
       <hr className='br'/>
-      <div className={styles.row}>
+      <div className={styles.pgh}>
         <p className={styles.boldText} title="Al-Rwda is a maintenance, dismantling, and installation company for air conditioners, dismantling and installing furniture and kitchens">
           Al-Rwda is a maintenance, dismantling, and installation company for air conditioners, dismantling and installing furniture and kitchens 
         </p>
@@ -30,21 +30,17 @@ const Navbar = () => {
       </div>
       <div className={styles.row}>
         <div className={styles.navGroup}>
-          <span className={styles.navItem} tabIndex="1">NavItem1</span>
-          <span className={styles.navItem} tabIndex="2">NavItem2</span>
-          <span className={styles.navItem} tabIndex="3">NavItem3</span>
+          <span className={styles.navItem} tabIndex="1">Dismantling and installing in Damman</span>
           {/* Add more nav items as needed */}
         </div>
         <div className={styles.navGroup}>
-          <span className={styles.navItem} tabIndex="4">NavItem4</span>
-          <span className={styles.navItem} tabIndex="5">NavItem5</span>
-          <span className={styles.navItem} tabIndex="6">NavItem6</span>
+          <span className={styles.navItem} tabIndex="4">Kitchen installation and maintainance</span>
+          
           {/* Add more nav items as needed */}
         </div>
         <div className={styles.navGroup}>
-          <span className={styles.navItem} tabIndex="7">NavItem7</span>
-          <span className={styles.navItem} tabIndex="8">NavItem8</span>
-          <span className={styles.navItem} tabIndex="9">NavItem9</span>
+          <span className={styles.navItem} tabIndex="7">Ectrician in Damman khoban</span>
+          
           {/* Add more nav items as needed */}
         </div>
       </div>
