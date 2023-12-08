@@ -1,0 +1,52 @@
+/* Footer.module.css */
+
+/* ... Your existing styles ... */
+
+.footer {
+  background-color: rgb(58, 55, 55);
+  border-top: 5px solid #ff9900;
+  border-bottom: 2px solid #ff9900;
+  color: rgb(211, 209, 209);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+  font-size: 12px;
+}
+
+.leftContent, .rightContent {
+  display: flex;
+  align-items: center;
+}
+
+.verticalDivider {
+  width: 2px;
+  height: 20px;
+  background-color: #979694;
+  margin: 0 10px;
+}
+
+.rssLogo {
+  width: 20px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.cSymbol {
+  font-size: 18px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .leftContent, .rightContent {
+    margin-bottom: 10px;
+  }
+}

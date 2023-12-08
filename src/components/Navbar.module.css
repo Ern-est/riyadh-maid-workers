@@ -23,10 +23,27 @@
   align-items: center;
 }
 
-.searchButton, .wifiButton, .samplePage {
+.searchButton {
   background-color: rgb(247, 134, 43);
   color: white;
-  padding: 4px;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.wifiButton {
+  background-color: white;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  margin-right: 37rem;
+}
+
+.samplePage {
+  color: rgb(112, 112, 112);
+  padding: 3px;
   border: none;
   cursor: pointer;
   display: flex;
