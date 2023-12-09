@@ -1,21 +1,22 @@
 /* Navbar.module.css */
 
 .navbar {
-  background-color: white;
-  border-top: 4px solid #ff9900;
-  border-bottom: 4px solid #ff9900;
-  padding:10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-top: 2px solid orange;
+  margin-top: 2rem;
+  margin-left: 15rem;
   width: 70%;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .searchContainer {
@@ -24,109 +25,72 @@
 }
 
 .searchButton {
-  background-color: rgb(247, 134, 43);
-  color: white;
-  padding: 2px;
+  background-color: orange;
   border: none;
   cursor: pointer;
-  display: flex;
+  padding: 4px;
 }
 
-.wifiButton {
-  background-color: white;
-  padding: 2px;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  margin-right: 37rem;
-}
-
-.samplePage {
-  color: rgb(112, 112, 112);
-  padding: 3px;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.searchButton img, .wifiButton img {
-  margin-right: 3px;
+.logo {
+  width: 20px;
+  height: 20px;
 }
 
 .searchInput {
-  padding: 8px;
-  margin-left: 5px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.wifiButton {
+  background-color: transparent;
   border: none;
-  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 36rem;
+}
+
+.samplePage {
+  font-size: 16px;
+  color: rgb(109, 109, 109);
+}
+
+.hr {
+  height: 13px;
+  width: 13px;
+  background: rgb(153, 67, 67);
+}
+
+.pgh {
+  margin-bottom: 20px;
 }
 
 .boldText {
   font-weight: bold;
-  color: rgb(63, 60, 60);
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: rgb(73, 71, 71);
 }
 
 .boldText:hover {
-  color: black;
-}
-.br {
-  width: 2px;
+  color: rgb(0, 0, 0);
 }
 
 .normalText {
-  color: rgb(119, 116, 116);
-  font-size: 12px;
-  margin: 0rem 0rem 2rem 36rem;
+  font-weight: normal;
+  margin-left: 28rem;
+  color: rgb(122, 121, 121);
+
 }
 
 .navGroup {
-  display: flex;
-  background-color: rgb(20, 20, 20);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  flex: 1;
+  margin-right: 20px;
 }
 
 .navItem {
-  background-color: black;
-  color: white;
-  padding: 8px;
-  margin-right: 5px;
   cursor: pointer;
-  position: relative;
-}
-
-.navItem:hover {
-  background-color: #333;
-}
-
-.dropdown {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-item {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
   display: block;
+  padding: 10px;
+  border: 1px solid white;
+  margin-bottom: 10px;
 }
 
-.dropdown-item:hover {
-  background-color: #333;
-}
-/* Navbar.module.css */
-
-/* ... Existing styles ... */
-
-.logo {
-  width: 20px; /* Adjust the size as needed */
-  height: auto;
-}
-
-/* ... Remaining styles ... */
+/* Add more styles as needed */
