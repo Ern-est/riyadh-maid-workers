@@ -18,7 +18,11 @@ const Navbar = () => {
         </button>
         <span className={styles.samplePage}>Sample Page</span>
       </div>
-      <hr className='br'/>
+      <div>
+        <p>
+          <hr />
+        </p>
+      </div>
       <div className={styles.pgh}>
         <p className={styles.boldText} title="Al-Rwda is a maintenance, dismantling, and installation company for air conditioners, dismantling and installing furniture and kitchens">
           Al-Rawda is a maintenance, dismantling, and installation company for air conditioners, dismantling and installing furniture and kitchens 

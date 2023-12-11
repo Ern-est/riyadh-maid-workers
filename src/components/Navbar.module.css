@@ -5,18 +5,20 @@
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  padding: 5px;
+  padding: 0px;
   border-top: 2px solid orange;
   margin-top: 2rem;
-  margin-left: 15rem;
-  width: 70%;
+  margin-left: 8rem;
+  width: 80%;
+  border-left: 1px solid rgb(204, 200, 200);
+  border-right: 1px solid rgb(204, 200, 200);
+  border-bottom: 1px solid orange;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .searchContainer {
@@ -53,12 +55,6 @@
   color: rgb(109, 109, 109);
 }
 
-.hr {
-  height: 13px;
-  width: 13px;
-  background: rgb(153, 67, 67);
-}
-
 .pgh {
   margin-bottom: 20px;
 }
@@ -75,22 +71,8 @@
 
 .normalText {
   font-weight: normal;
-  margin-left: 28rem;
+  margin-left: 34rem;
   color: rgb(122, 121, 121);
 
 }
 
-.navGroup {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.navItem {
-  cursor: pointer;
-  display: block;
-  padding: 10px;
-  border: 1px solid white;
-  margin-bottom: 10px;
-}
-
-/* Add more styles as needed */

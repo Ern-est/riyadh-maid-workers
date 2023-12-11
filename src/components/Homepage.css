@@ -1,0 +1,52 @@
+/* Homepage.module.css */
+
+.homer {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 1px solid rgb(206, 203, 203);
+  font-size: 14px;
+  background-color: white;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.leftie,
+.rightie {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid rgb(36, 34, 34);
+}
+
+.rightie {
+  border-right: none;
+}
+
+.leftie p,
+.rightie span {
+  margin-bottom: 20px;
+}
+.hr {
+    color: rgb(177, 174, 174);;
+}
+
+/* Add additional styles as needed */
+.research {
+  height: 11rem;
+  width: 90%;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid orange;
+}
