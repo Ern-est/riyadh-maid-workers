@@ -5,8 +5,9 @@
   max-width: 1000px;
   margin: 20px auto;
   border: 1px solid rgb(206, 203, 203);
-  font-size: 14px;
+  font-size: 12px;
   background-color: white;
+  color: rgb(68, 67, 67);
 }
 
 .card {
@@ -37,16 +38,114 @@
   margin-bottom: 20px;
 }
 .hr {
-    color: rgb(177, 174, 174);;
+    color: rgb(156, 158, 156);
 }
 
 /* Add additional styles as needed */
 .research {
   height: 11rem;
-  width: 90%;
+  width: 70%;
   border: 1px solid rgb(207, 207, 207);
-  border-radius: 3px;
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid orange;
+  float: right;
+}
+.tex {
+  width: 70%;
+  padding-top: 12px;
+  float: right;
+}
+
+.qrer {
+  height: 12px;
+  width: 40%;
+}
+.rer {
+  width: 20%;
+  height: 12px;
+}
+.chat {
+  font-size: 20px;
+  font-weight: bold;
+}
+.search {
+  height: 5rem;
+  border: 1px solid rgb(207, 207, 207);
+  border-bottom: 3px solid orange;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  /*box-shadow: 0 0 1px 1px rgb(190, 187, 187);*/
+}
+.init {
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 2rem;
+  margin: 4px;
+  border-radius: 2px;
+  float: right;
+  border:1px solid rgb(204, 203, 203);
+}
+
+.butt {
+  height: 2rem;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 2px;
+  float: right;
+  margin: 4px;
+}
+.rq {
+  height: 12px;
+  width: 100%;
+}
+.empty {
+  height: 18px;
+  border: 1px solid rgb(197, 195, 195);
+  border-bottom: 3px solid orange;
+}
+.arch {
+  height: 12px;
+  width: 65%;
+  padding-top: 12px;
+}
+
+.xet {
+  border: 1px solid rgb(170, 169, 169);
+  width: 70%;
+  padding-top: 9px;  
+}
+.box {
+  border: 1px solid rgb(170, 169, 169);
+  width: 70%;
+  border-bottom: 3px solid orange;
+  margin-top: 15px;
+  float: right;
+}
+.folder {
+  height: 12px;
+  width: 5%;
+  padding-left: 5px;
+}
+.lain {
+  width: 96%;
+}
+.laster {
+  border: 1px solid rgb(170, 169, 169);
+  border-bottom: 3px solid orange;
+}
+
+.lastie {
+  height: 12px;
+  padding-top: 12px;
+}
+.ls {
+  float: right;
+}
+.coder {
+  height: 12px;
+  width: 80%;
 }
