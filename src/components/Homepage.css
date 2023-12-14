@@ -5,9 +5,13 @@
   max-width: 1000px;
   margin: 20px auto;
   box-shadow: 5px 5px 5px 3px rgb(214, 214, 214);  
-  font-size: 12px;
+  font-size: 13px;
   background-color: white;
-  color: rgb(68, 67, 67);
+  color: rgb(95, 93, 93);
+}
+.media {
+  padding: 5px;
+  border-bottom: 3px solid orange;
 }
 .call {
   height: 3rem;
@@ -17,7 +21,7 @@
 .caller {
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  border: 1px solid rgb(219, 217, 217);
 }
 .number {
   background-color: rgba(255, 0, 0, 0.788);
@@ -30,11 +34,38 @@
   justify-content: center;
   align-items: center;
 }
+
+.tags button{
+  padding: 3px;
+  margin: 5px;
+  background-color: gray;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.tags button:hover {
+  background-color: orange;
+}
+
 .fb {
-  height: 16px;
+  height: 52px;
   padding: 3px;
   }
-
+.start {
+  display: flex;
+}
+.left {
+  width: 35%;
+  padding: 5px;
+}
+.right {
+  width: 65%;
+}
+.straight {
+  width: 1px;
+  background-color: #c2c2c2;
+  margin: 0 10px;
+}
 .leftie {
   margin-top: 2%;
   margin-bottom: 2%;
@@ -57,8 +88,27 @@
   width: 36%;
 
 }
-
-
+.latest {
+  height: 12px;
+  width: 48%;
+}
+.art {
+  padding-top: 25px;
+}
+.art span {
+  font-size: 24px;
+}
+.profile {
+  border: 1px solid rgb(207, 206, 206);
+  border-bottom: 3px solid orange;
+  height: 8rem;
+}
+.pro {
+  height: 5rem;
+  padding-top: 17px;
+  padding-right: 17px;
+  float: right;
+}
 .leftie p,
 .rightie span {
   margin-bottom: 20px;

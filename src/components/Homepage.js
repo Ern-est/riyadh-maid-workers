@@ -3,22 +3,47 @@ import './Homepage.css'
 import qr from '../Assets/qr.jpg';
 import fold2 from '../Assets/fold2.png';
 import call from '../Assets/call.png'
-import facebook from '../Assets/facebook.png'
+import facebook from '../Assets/fb.png'
+import linkedin from '../Assets/link.png'
+import pin from '../Assets/pin.png'
+import upon from '../Assets/upon.png'
+import twit from '../Assets/twit.png'
+import google from '../Assets/Google.png'
+import profile from '../Assets/profile.jpg'
 const Homepage = () => {
   return (
     
     <div className="homer">
         <div className="leftie">
+          <div className="start">
+            <div className="left">
+              <p>
+                <h1>SIMILAR ARTICLES</h1>
+                <h3>Office of monthly maids in Riyadh 0583595089</h3>
+                <span>November 11, 2020</span>
+                <hr />
+                <h3>Female workers per month in Riyadh 0538839342</h3>
+                <span>August 21, 2020</span>
+                <hr />
+                <h3>Maids per month in Riyadh 0557562109</h3>
+                <span>August 17, 2020</span>
+
+              </p>
+            </div>
+            <span className="straight"></span>
+            <div className="right">
             <p>
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
+                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Development in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
             </p>
+            </div>
+          </div>
             <p>
               <h1>Hourly maid in Riyadh</h1>
               <span>Hourly maid rental offices in Riyadh have services that have expirience, efficiency and high skill in all household chores, whether cooking, cleaning, or raising young children. They are also obedient and know well how to deal with any problems they may encounter in household chores. They are also very proficient in the filed of cleaning, as they <b>Hourly maid rental companies in Riyadh</b> provide domestic workers with ease and safety</span>
             </p>
             <p>
               <h1>Hourly maids, Riyadh</h1>
-              <span>The special prices of <b>maid rental companies in Riyadh</b> satisfy everyon, and they are considered very good prices for the service that the maid will provide in the client's home, as the maid of <b>domestic labor rental companies in Riyadh</b> is skilled in cleaning and completing household chores very quickly</span>
+              <span>The special prices of <b>maid rental companies in Riyadh</b> satisfy everyone, and they are considered very good prices for the service that the maid will provide in the client's home, as the maid of <b>domestic labor rental companies in Riyadh</b> is skilled in cleaning and completing household chores very quickly</span>
             </p>
             <p>
               <h1>An hourly labor rental company in Riyadh</h1>
@@ -107,21 +132,42 @@ const Homepage = () => {
             <hr className="stripp" />
             <div className="media">
             <a href="https://www.facebook.com/Anest Cheruu">
-            <span>Facebook</span><img src={facebook} alt="" className='fb'/>
+            <img src={linkedin} alt="" className='fb'/>
+          </a>
+          <a href="https://www.facebook.com/Anest Cheruu">
+            <img src={upon} alt="" className='fb'/>
+          </a>
+          <a href="https://www.facebook.com/Anest Cheruu">
+            <img src={google} alt="" className='fb'/>
+          </a>
+          <a href="https://www.facebook.com/Anest Cheruu">
+            <img src={twit} alt="" className='fb'/>
           </a>
           <a href="https://www.facebook.com/Anest Cheruu">
             <img src={facebook} alt="" className='fb'/>
           </a>
           <a href="https://www.facebook.com/Anest Cheruu">
-            <img src={facebook} alt="" className='fb'/>
-          </a>
-          <a href="https://www.facebook.com/Anest Cheruu">
-            <img src={facebook} alt="" className='fb'/>
-          </a>
-          <a href="https://www.facebook.com/Anest Cheruu">
-            <img src={facebook} alt="" className='fb'/>
+            <img src={pin} alt="" className='fb'/>
           </a>
             </div>
+            <div className="tags">
+              <button>HOURLY MAID IN RIYADH</button>
+              <button>HOURLY MAIDS, RIYADH</button>
+              <button>HOURLY MAID NUMBERS IN RIYADH</button>
+              <button>HOURLY WORKERS IN RIYADH</button>
+              <button>AN HOURLY LABOR RENTAL COMPANY IN RIYADH</button>
+              <button>WORKER FOR RENT BY THE HOUR IN RIYADH</button>
+              <button>EXPIRIENCED HOURLY WORKERS IN RIYADH</button>
+              <button>HOURLY MAIDS OFFICE IN RIYADH</button>
+              <button>HOURLY WORKERS IN RIYADH</button>
+              <button>HOURLY COOK IN RIYADH HARAJ</button>
+            </div>
+            <div className="art">
+          <img src={qr} alt="Search" className="latest" /> <span className='chat'>ABOUT ROZALMADENA</span>
+          </div>
+          <div className="profile">
+            <img src={profile} alt="" className='pro'/>
+          </div>
         </div>
         <div className="rightie">
           <div className="tex">
