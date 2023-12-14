@@ -1,6 +1,7 @@
 // Navbar.js
 import React, { useState } from 'react';
 import styles from './Dropdown.module.css';
+import drop from'../Assets/drop.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,6 +22,7 @@ const Navbar = () => {
         {/* First Row */}
         <div className={styles.row}>
           <div className={styles.navItem} tabIndex="1">
+          <img src={drop} alt="foldersnap" className="folder" />
             Installing curtains in Dammam and Al-Khobar
             <div className={styles.dropdown}>
               <p>
@@ -38,6 +40,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="4">
+          <img src={drop} alt="foldersnap" className="folder" />
             Kitchen installation and maintenance
             <div className={styles.dropdown}>
               <p>
@@ -61,6 +64,7 @@ const Navbar = () => {
           
 
           <div className={styles.navItem} tabIndex="3">
+          <img src={drop} alt="foldersnap" className="folder" />
             Dismantling and installing furniture in Dammam
             <div className={styles.dropdown}>
               <p>
@@ -95,6 +99,7 @@ const Navbar = () => {
         {/* Second Row */}
         <div className={styles.row}>
         <div className={styles.navItem} tabIndex="2">
+        <img src={drop} alt="foldersnap" className="folder" />
             Hafar Al-Batin paints and dyes
             <div className={styles.dropdown}>
               <p>
@@ -120,6 +125,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="5">
+          <img src={drop} alt="foldersnap" className="folder" />
             Installation and maintenance of air conditioners in Dammam
             <div className={styles.dropdown}>
               <p>
@@ -147,6 +153,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="6">
+          <img src={drop} alt="foldersnap" className="folder" />
             Dismantling and installing Riyadh furniture
             <div className={styles.dropdown}>
               <p>
@@ -177,6 +184,7 @@ const Navbar = () => {
         {/* Additional Rows */}
         <div className={styles.row}>
           <div className={styles.navItem} tabIndex="10">
+          <img src={drop} alt="foldersnap" className="folder" />
             Damman and Khobar plumber
             <div className={styles.dropdown}>
             <p>
@@ -206,6 +214,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="11">
+          <img src={drop} alt="foldersnap" className="folder" />
             Ceramic installation in Dammam
             <div className={styles.dropdown}>
               <p>
@@ -237,6 +246,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="12">
+          <img src={drop} alt="foldersnap" className="folder" />
             Restoration and contracting works in Dammam
             <div className={styles.dropdown}>
               <p>
@@ -266,6 +276,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="13">
+          <img src={drop} alt="foldersnap" className="folder" />
             Al-Ahsa and Dammam paints and dyes
             <div className={styles.dropdown}>
               <p>
@@ -300,6 +311,7 @@ const Navbar = () => {
 
         <div className={styles.row}>
           <div className={styles.navItem} tabIndex="10">
+          <img src={drop} alt="foldersnap" className="folder" />
             Pest control in northern Riyadh 
             <div className={styles.dropdown}>
               <span>Pest control company north of Riyadh</span>
@@ -307,6 +319,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="11">
+          <img src={drop} alt="foldersnap" className="folder" />
             Jeddah recruitment office
             <div className={styles.dropdown}>
               <p>
@@ -327,6 +340,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="12">
+          <img src={drop} alt="foldersnap" className="folder" />
             Female workers per month in Riyadh
             <div className={styles.dropdown}>
               <p>
@@ -357,6 +371,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="13">
+          <img src={drop} alt="foldersnap" className="folder" />
             Electrician in Dammam and Khobar 
             <div className={styles.dropdown}>
               <p>
@@ -384,6 +399,7 @@ const Navbar = () => {
         {/* Additional Row */}
         <div className={styles.row}>
           <div className={styles.navItem} tabIndex="14">
+          <img src={drop} alt="foldersnap" className="folder" />
             Monthly maids in Dammam
             <div className={styles.dropdown}>
               <p>
@@ -411,6 +427,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.navItem} tabIndex="15">
+          <img src={drop} alt="foldersnap" className="folder" />
             Workers per month, Jeddah
             <div className={styles.dropdown}>
               <span>Offices for renting maids by the month in Jeddah 0568195708</span>
@@ -429,3 +446,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

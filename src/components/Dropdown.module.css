@@ -34,7 +34,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 10px;
+  gap: 8px;
 }
 
 .navItem {
@@ -58,7 +58,6 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  gap: 8px;
 }
 
 
@@ -104,4 +103,8 @@
   .row {
     flex-direction: column;
   }
+}
+.folder {
+  height: 7px;
+  width: 4%;
 }

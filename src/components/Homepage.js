@@ -2,27 +2,127 @@ import React from 'react'
 import './Homepage.css'
 import qr from '../Assets/qr.jpg';
 import fold2 from '../Assets/fold2.png';
+import call from '../Assets/call.png'
+import facebook from '../Assets/facebook.png'
 const Homepage = () => {
   return (
+    
     <div className="homer">
         <div className="leftie">
             <p>
                 <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
-                <hr />
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
-                <hr />
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>                
-                <hr />
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
-                <hr />
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
-                <hr />
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
-                <hr />
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Debelopment in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
             </p>
+            <p>
+              <h1>Hourly maid in Riyadh</h1>
+              <span>Hourly maid rental offices in Riyadh have services that have expirience, efficiency and high skill in all household chores, whether cooking, cleaning, or raising young children. They are also obedient and know well how to deal with any problems they may encounter in household chores. They are also very proficient in the filed of cleaning, as they <b>Hourly maid rental companies in Riyadh</b> provide domestic workers with ease and safety</span>
+            </p>
+            <p>
+              <h1>Hourly maids, Riyadh</h1>
+              <span>The special prices of <b>maid rental companies in Riyadh</b> satisfy everyon, and they are considered very good prices for the service that the maid will provide in the client's home, as the maid of <b>domestic labor rental companies in Riyadh</b> is skilled in cleaning and completing household chores very quickly</span>
+            </p>
+            <p>
+              <h1>An hourly labor rental company in Riyadh</h1>
+              <span><b>Domestic labor rental companies in Riyadh</b> also provide Indonesian maids, as this type has a wonderful touch in cleaning bathrooms and floors.Beacause of the expirience and skill they possess, they are highly conscientious in terms of performing household chores with perfection and incredible freedom, and one of the things that maids in <b>hourly maid rental offices in Riyadh</b> are most keen on in performing household chores is to preserve the health of the children, so the housewife can leave Her Child with her without any worry or fear</span>
+            </p>
+            <div className="caller">
+            <img src={call} alt="" className='call'/>
+            <span className='number'>0505718578</span>
+            </div>
+            <p>
+              <h1>Expirienced hourly workers in Riyadh</h1>
+              <span><b>The maids of domestic labor rental companies in Riyadh</b> are trained to the highest level to carry out househld chores, such as cleaning the house, washing the floors, washing the bathroom, and washing clothes, in addition to their flexible dealings, which is widely apparent at parties and events. Hourly <b>maid rental companies in Riyadh</b> adhere to the deadlines that are set. Agreed upon between them and the client. The <b>maid and domestic labor rental company in Riyadh</b> appreciates the importance of adhering to appointments, especially on large occasssions</span>
+            </p>
+            <p>
+              <h1>Hourly maids office, Riyadh</h1>
+              <span><b>The Hourly Cleaning Office in Riyadh</b> is keen from time to provide various and different offers suitable for the holidays and occasions expirienced by the Islam nation. It also helps greatly in providing real discounts and reductions on the services of the <b>Hourly Cleaning Workers in Riyadh</b> in order to make housewives happy. <b>The Hourly Cleaning Office in Riyadh</b> is keen to provide Providing its services at fantastic prices that no client can find in any office other than an <b>hourly cleaning office in Riyadh</b></span>
+            </p>
+            <p>
+              <h1>Hourly workers in Riyadh</h1>
+              <span>Credibility and proffesionalism in work are the most important features of <b>an hourly cleaning office in Riyadh</b>, as we offer customers the best services from time to time in order to obtain the best results. <b>Hourly workers in Riyadh</b> have aa great deal of proffesionalism and proffesionalism, thanks to the efforts made by <b>the hourly cleaning office. In Riyadh,</b> it was able to completely change customer's minds about services that do not reach the level of proffessionalism from other companies</span>
+            </p>
+            <div className="caller">
+              <img src={call} alt="" className="call" />
+              <span className="number">0505718578</span>
+            </div>
+            <p>
+              <h1>Hourly domestic workers in Riyadh</h1>
+              <span><b>The offices for renting hourly maids in Riyadh</b> are reliable and trust all the maids who offer to work at home, and they were able to gain the customer's trust thanks to the quality of their services and their cheap prices for <b>hourly</b> maids in Riyadh. In case you want to hire domestic workers, you must contact <b>the offices for renting hourly maids in Riyadh</b> from By calling their numbers at any time you wish, on al  days of the week, <b>hourly maid rental offices in Riyadh</b> provide the best hourly domestic workers who possess mastery and honest, and at the lowest prices that suit every home in the Kingdom of Saudi Arabia</span>
+            </p>
+            <p>
+              <h1>Hourly maid east of Riyadh</h1>
+              <span>We offer you, dear customer, through <b>the offices for renting hourly maids in Riyadh,</b> everything you want and are looking for in terms of the specifications <b>of an hourly maid in eastern Riyadh ,</b> as <b>the offices renting hourly maids in Riyadh</b> guarantee you the best maid to help with household chores and perform them with proffessionalism and sincerity. <b>The hourly maid</b> in eastern Riyadh has great expirience. In the field of cleaning, whether it is cleaning, wether it is cleaning floors, ceramics, tiles and marble, not only that, but she also masters the arts of cooking all kinds, and the cooking for <b>hourly maid services in Riyadh</b> is distinguished by its good taste</span>
+            </p>
+            <p>
+              <h1>Hourly maid rental office in Riyadh</h1>
+              <span><b>An hourly maid in Riyadh</b> can make all Eastern and western sweets, and she can wash dishes and do anything the house needs. When you hire an <b>hourly cleaning office in Riyadh</b>, you will be in safe hands, and our prices are unbeatable, as we can provide the best <b>hourly services in Riyadh</b> is oe of those who have the proffesionalism at the lowest prices, and our prices are suitable for every housewife and every Saudi home</span>
+            </p>
+            <div className="caller">
+              <img src={call} alt="" className="call" />
+              <span className="number">0505718578</span>
+            </div>
+            <p>
+              <h1>Companies that rent hourly miads in Riyadh</h1>
+              <span>The goal <b>of companies renting hourly maids in Riyadh</b> is to maintain the comfort of our valued customers, so that we can be the preffered office for all residents of the Riyadh region. You can also hire hourly <b>maids in Riyadh</b> at any time. Each maid has all the guarantees and official papers that confirm her origin, and <b>an hourly maid is also appointed. East Riyadh</b> has been under the most difficult selections for months, and after ensuring all of this and that they have become qualified to implement the service, they are immediately sent to the customers</span>
+            </p>
+            <p>
+              <h1>Hourly workers in Riyadh</h1>
+              <span>We can save you from searching now for an office to rent hourly maids , as it may be an unsuccessful choice if this is not licensed, or the maids are not qualified and do not have a consience, and we offer you <b>hourly maids in Riyadh</b>who have been put through many tests until <b>Hourly maid rental companies in Riyadh</b> have confirmed that <b>hourly maids in eastern Riyadh</b>are fit to carry out the service</span>
+            </p>
+            <p>
+              <h1>Hourly maid numbers in Riyadh</h1>
+              <span>If you, dear customer, would like to benefit from the service of <b>hourly maid rental companies in Riyadh,</b> all you have to do is communicate quickly with <b>hourly maid rental company in Riyadh </b>, as it starts working from seven in the morning until 12:00, and you will be answered immediately by one of the employees. The company <b>rents maids and domestic workers in the city of Riyadh</b> in order to take your data ad determine the nationality of the maid you want according to special specfifications. The work agreement or work contract begins, which is annual,monthly,or in hours according to your request, which you desire</span>
+            </p>
+            <p>
+              <h1>Worker for rent by the hour in Riyadh</h1>
+              <span>As for the special prices for maids for rent by the hour in Riyadh from <b>companies that rent domestic workers in Riyadh</b>, they are prices that suit all categories in the Kingdom of Saudi Arabia. They are also competitive prices when compared to other pricews of companies that <b>rent maids and domestic workers in Riyadh.</b> All that a company <b>that rents maids by the hour in Riyadh</b> wants is to get its good reputation, gaining the trust of valued customers in all regions of the Kingdom of Saudi Arabia, especially in the Riyadh region, and saving the effort and fatigue that a person expends in searching for a maid</span>
+            </p>
+            <div className="caller">
+              <img src={call} alt="" className="call" />
+              <span className="number">0505718578</span>
+            </div>
+            <p>
+              <h1>Maids in Riyadh</h1>
+              <span>Home work service is one of the most requested services these days and this is in addition to requests to rent a babysitter, requests to rent babysitters for the elderly, and other requests for housework services. Most requests are to hire maids for the month in order to take care of the entire housework throughout the month, and there many companies that provide these services. Services, whether each of them separately or all of the previously mentioned services. The demand for home services within Riyadh and customer questions about the best worker recruitment company in Riyadh increases every month</span>
+            </p>
+            <p>
+              <h1>Hourly workers in Riyadh</h1>
+              <span>As we mentioned previously, there are many companies and offices specialized in renting services in al cities, and these companies and offices provide Indonesian maids per month in Riyadh, provided that they provide services for household chores of all ages, as well as of various foreign and Arab nationalities. The company also provides maids for renting children's nannies and babysitters for the elderly maids per month. In Riyadh, they are usually contracted to live in the house throughout the month and this was agreed upon with the company before sending the workers to the client, provided that they are given a suitable monthly salary for the required home service. The maid rental company also has African maids as well as Somali maids, and it also provides cooks for homes and villas. House management specialists in palaces and villas</span>
+            </p>
+            <p>
+              <h1>The best companies for renting maids in Riyadh</h1>
+              <span>The best maid rental company in Riyadh always seeks to satisfy the customer and gain his trust, so it has maids who are trustworthy and honesty in dealing with customers and company guarantees that it always seeks to provide housemaids with very high efficiency in working in this field and they have honesy and respect in dealing with homeowners. Whereas, service offices for domestic workers in Riyadh only provide well-trained maids for all household chores, such as cleaning cooking, washing, etc.,using the latest methods and techniques that guarantee the quality and efficiency of the service, in addition to that the best maid rental company in Riyadh can provide services. Others such as providing babysitters known as babysitters as well as cooks, drivers, and dining workers, can be relied upon to provide a full staff to work in you villa</span>
+            </p>
+            <p>
+              <h1>Riyadh maid rental office</h1>
+              <span>If you want to get a maid for a small house or a nanny for your child at reasonable prices for the service provided, you can help from maid rental offices in Riyadh, which know the specifications required for the maid you want to hire and immediately suggest to you the best foreign and Arab maids upon request. The maid rental offices in Riyadh provide Servants of Somali and Sudanese nationalities, which usually require a much lower monthly wage than foreign maids. The maid rental office can also provide you with foreign servants if you wish. They usually speak Arabic in addition to their priary language, and thus they can help your children study and take more care of them. It is wonderful, so if you want to hire servants, you must use such offices</span>
+            </p>
+            <p>
+              <h1>Workers for daily rent in Riyadh</h1>
+              <span>Hiring maids per day in northern Riyadh is done through a Riyadh maid rental company designated for this service, where company or office sends the domestic worker to the client's  home for a number of hours, by hiring domestic workers to perform a specific occassion. Or take care of the children until the mother returns, provided that the worker receives a daily wage from the servant company</span>
+            </p>
+            <p>
+              <h1>Hourly workers in Riyadh</h1>
+              <span>Most requests for renting maids in the city of Riyadh are for the maid to be of Filipino nationality. This is because Filipino maids are well proficient in doing housework very quickly and with very high quality, using the latest innovative methods to complete cleaning, washing and cooking work, which makes them the first choice of customers. Therefore, companies seek Renting servants to provide Filipino workers</span>
+            </p>
+            <hr className="stripp" />
+            <div className="media">
+            <a href="https://www.facebook.com/Anest Cheruu">
+            <span>Facebook</span><img src={facebook} alt="" className='fb'/>
+          </a>
+          <a href="https://www.facebook.com/Anest Cheruu">
+            <img src={facebook} alt="" className='fb'/>
+          </a>
+          <a href="https://www.facebook.com/Anest Cheruu">
+            <img src={facebook} alt="" className='fb'/>
+          </a>
+          <a href="https://www.facebook.com/Anest Cheruu">
+            <img src={facebook} alt="" className='fb'/>
+          </a>
+          <a href="https://www.facebook.com/Anest Cheruu">
+            <img src={facebook} alt="" className='fb'/>
+          </a>
+            </div>
         </div>
-        <span className="vert"></span>
         <div className="rightie">
           <div className="tex">
           <img src={qr} alt="qrcode" className="rq" />

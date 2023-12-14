@@ -4,34 +4,60 @@
   display: flex;
   max-width: 1000px;
   margin: 20px auto;
-  border: 1px solid rgb(206, 203, 203);
+  box-shadow: 5px 5px 5px 3px rgb(214, 214, 214);  
   font-size: 12px;
   background-color: white;
   color: rgb(68, 67, 67);
 }
-
-.card {
-  display: flex;
-  flex: 1;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s;
+.call {
+  height: 3rem;
+  width: 3rem;
+  padding-top: 3px;
 }
-
-.card:hover {
-  transform: scale(1.05);
+.caller {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
 }
+.number {
+  background-color: rgba(255, 0, 0, 0.788);
+  font-size: 28px;
+  color: #fff;
+  border-radius: 3px;
+  
+}
+.media {
+  justify-content: center;
+  align-items: center;
+}
+.fb {
+  height: 16px;
+  padding: 3px;
+  }
 
-.leftie,
-.rightie {
-  flex: 1;
+.leftie {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
   padding: 20px;
-  border-right: 1px solid rgb(36, 34, 34);
+  width: 64%;
+  border: 1px solid rgb(233, 232, 232);
+}
+.header {
+  display: grid;
+  padding: 10px;
+  width: 10rem;
+  font-size: 12px;
+  color: rgb(65, 64, 64);
+  justify-content: center;
+  align-items: center;
+}
+.rightie {
+  padding: 20px;
+  width: 36%;
+
 }
 
-.rightie {
-  border-right: none;
-}
 
 .leftie p,
 .rightie span {
@@ -44,17 +70,13 @@
 /* Add additional styles as needed */
 .research {
   height: 11rem;
-  width: 70%;
-  border: 1px solid rgb(207, 207, 207);
+  border: 1px solid rgb(233, 232, 232);
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid orange;
-  float: right;
 }
 .tex {
-  width: 70%;
   padding-top: 12px;
-  float: right;
 }
 
 .qrer {
@@ -71,7 +93,7 @@
 }
 .search {
   height: 5rem;
-  border: 1px solid rgb(207, 207, 207);
+  border: 1px solid rgb(233, 232, 232);
   border-bottom: 3px solid orange;
   justify-content: center;
   align-items: center;
@@ -86,7 +108,7 @@
   margin: 4px;
   border-radius: 2px;
   float: right;
-  border:1px solid rgb(204, 203, 203);
+  border: 1px solid rgb(233, 232, 232);
 }
 
 .butt {
@@ -97,6 +119,10 @@
   border-radius: 2px;
   float: right;
   margin: 4px;
+  cursor: pointer;
+}
+.butt:hover {
+  background-color: black;
 }
 .rq {
   height: 12px;
@@ -104,12 +130,12 @@
 }
 .empty {
   height: 18px;
-  border: 1px solid rgb(197, 195, 195);
+  border: 1px solid rgb(233, 232, 232);
   border-bottom: 3px solid orange;
 }
 .arch {
   height: 12px;
-  width: 65%;
+  width: 56%;
   padding-top: 12px;
 }
 
@@ -119,11 +145,9 @@
   padding-top: 9px;  
 }
 .box {
-  border: 1px solid rgb(170, 169, 169);
-  width: 70%;
+  border: 1px solid rgb(233, 232, 232);
   border-bottom: 3px solid orange;
   margin-top: 15px;
-  float: right;
 }
 .folder {
   height: 12px;
@@ -134,7 +158,7 @@
   width: 96%;
 }
 .laster {
-  border: 1px solid rgb(170, 169, 169);
+  border: 1px solid rgb(233, 232, 232);
   border-bottom: 3px solid orange;
 }
 
