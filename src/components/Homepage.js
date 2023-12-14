@@ -18,7 +18,7 @@ const Homepage = () => {
           <div className="start">
             <div className="left">
               <p>
-                <h1>SIMILAR ARTICLES</h1>
+                <h2>SIMILAR ARTICLES</h2>
                 <h3>Office of monthly maids in Riyadh 0583595089</h3>
                 <span>November 11, 2020</span>
                 <hr />
@@ -33,7 +33,8 @@ const Homepage = () => {
             <span className="straight"></span>
             <div className="right">
             <p>
-                <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Development in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
+              <h1>Hourly workers in Riyadh</h1>
+              <span>Hourly maid rental companies in Riyadh are among the most important companies approved by the Ministry of Labor and Social Development in the Kingdom of Saudi Arabia. They also have a special permit to employ a large number of maids in the city of Riyadh for valued customers  in order to save them the hassle of searching for hourly maids in Riyadh with special specifications. The company for renting maids and domestic workers in the city of Riyadh is distinguished by renting maids with expirience in household chores and managing special events and parties</span>
             </p>
             </div>
           </div>
