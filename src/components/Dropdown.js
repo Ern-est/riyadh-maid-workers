@@ -2,12 +2,22 @@
 import React, { useState } from 'react';
 import styles from './Dropdown.module.css';
 import drop from'../Assets/drop.png';
+import Modal from '../Pages/Modal'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [selectedModalContent, setSelectedModalContent] = useState(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const openModal = (content) => {
+    setSelectedModalContent(content);
+  };
+
+  const closeModal = () => {
+    setSelectedModalContent(null);
   };
 
   return (
@@ -26,7 +36,8 @@ const Navbar = () => {
             Installing curtains in Dammam and Al-Khobar
             <div className={styles.dropdown}>
               <p>
-              <span>Carpenter installing curtains in Dammam 0504353061</span>
+              <Modal isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+              <span onClick={() => openModal('Modal content for tab 1 span 1')}>Carpenter installing curtains in Dammam 0504353061</span>
               <hr className='lina'/>
               <span>Curtain installation technician in Dammam 0566733794</span>
               <hr className='lina'/>
