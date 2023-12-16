@@ -1,8 +1,18 @@
 // Navbar.js
 import React, { useState } from 'react';
 import styles from './Dropdown.module.css';
-import drop from'../Assets/drop.png';
-import Modal from '../Pages/Modal'
+import drop from '../Assets/drop.png';
+import Tab1a from '../Pages/tab1a';
+import Tab1b from '../Pages/tab1b';
+import Tab1c from '../Pages/tab1c';
+import Tab1d from '../Pages/tab1d';
+import Tab2a from '../Pages/tab2a';
+import Tab2b from '../Pages/tab2b';
+import Tab2c from '../Pages/tab2c';
+import Tab2d from '../Pages/tab2d';
+import Tab2e from '../Pages/tab2e';
+import Tab2f from '../Pages/tab2f';
+import Tab2g from '../Pages/tab2g';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,21 +42,33 @@ const Navbar = () => {
         {/* First Row */}
         <div className={styles.row}>
           <div className={styles.navItem} tabIndex="1">
-          <img src={drop} alt="foldersnap" className="folder" />
+            <img src={drop} alt="foldersnap" className="folder" />
             Installing curtains in Dammam and Al-Khobar
             <div className={styles.dropdown}>
-              <p>
-              <Modal isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
-              <span onClick={() => openModal('Modal content for tab 1 span 1')}>Carpenter installing curtains in Dammam 0504353061</span>
-              <hr className='lina'/>
-              <span>Curtain installation technician in Dammam 0566733794</span>
-              <hr className='lina'/>
-              <span>Ras Tanura curtain installation 0505121891</span>
-              <hr className='lina'/>
-              <span>Carpenter installing curtains in Al-khobar 0505121891</span>
-              <hr className='lina'/>
-              <span>Installing curtains in Dammam 0505121891</span>
-              </p>
+            <p>
+  {selectedModalContent === 'tab1a' && (
+    <Tab1a isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab1b' && (
+    <Tab1b isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab1c' && (
+    <Tab1c isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab1d' && (
+    <Tab1d isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {/* Add more components as needed */}
+  <span onClick={() => openModal('tab1a')}>Carpenter installing curtains in Dammam 0504353061</span>
+  <hr className='lina' />
+  <span onClick={() => openModal('tab1b')}>Curtain installation technician in Dammam 0566733794</span>
+  <hr className='lina' />
+  <span onClick={() => openModal('tab1c')}>Ras Tanura curtain installation 0505121891</span>
+  <hr className='lina' />
+  <span onClick={() => openModal('tab1d')}>Carpenter installing curtains in Al-Khobar 0505121891</span>
+  {/* Add more spans as needed */}
+</p>
+
             </div>
           </div>
 
@@ -55,19 +77,41 @@ const Navbar = () => {
             Kitchen installation and maintenance
             <div className={styles.dropdown}>
               <p>
-            <span>Aluminium kitchen installation technician, Dammam 0578173739</span>
+   {selectedModalContent === 'tab2a' && (
+    <Tab2a isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab2b' && (
+    <Tab2b isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab2c' && (
+    <Tab2c isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab2d' && (
+    <Tab2d isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab2e' && (
+    <Tab2e isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab2f' && (
+    <Tab2f isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab2g' && (
+    <Tab2g isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  
+            <span onClick={() => openModal('tab2a')}>Aluminium kitchen installation technician, Dammam 0578173739</span>
             <hr />
-            <span>Kitchen maintenance in Dammam 0505121891</span>
+            <span onClick={() => openModal('tab2b')}>Kitchen maintenance in Dammam 0505121891</span>
             <hr />
-            <span>Kitchen installation company in Al khobar 0578173739</span>
+            <span onClick={() => openModal('tab2c')}>Kitchen installation company in Al khobar 0578173739</span>
             <hr />
-            <span>Kitchen installation technician in Dammam 0578173739</span>
+            <span onClick={() => openModal('tab2d')}>Kitchen installation technician in Dammam 0578173739</span>
             <hr />
-            <span>Kitchen installation company in Qatif 0505121891</span>
+            <span onClick={() => openModal('tab2e')}>Kitchen installation company in Qatif 0505121891</span>
             <hr />
-            <span>Kitchen maintenance technician in Al-Khobar 0505121891</span>
+            <span onClick={() => openModal('tab2f')}>Kitchen maintenance technician in Al-Khobar 0505121891</span>
             <hr />
-            <span>Dismantling and installing kitchens in Al-khobar 0505121891</span>
+            <span onClick={() => openModal('tab2g')}>Dismantling and installing kitchens in Al-khobar 0505121891</span>
             </p>
             </div>
           </div>
