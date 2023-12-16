@@ -6,6 +6,7 @@ import Tab1a from '../Pages/tab1a';
 import Tab1b from '../Pages/tab1b';
 import Tab1c from '../Pages/tab1c';
 import Tab1d from '../Pages/tab1d';
+import Tab1e from '../Pages/tab1e';
 import Tab2a from '../Pages/tab2a';
 import Tab2b from '../Pages/tab2b';
 import Tab2c from '../Pages/tab2c';
@@ -13,6 +14,20 @@ import Tab2d from '../Pages/tab2d';
 import Tab2e from '../Pages/tab2e';
 import Tab2f from '../Pages/tab2f';
 import Tab2g from '../Pages/tab2g';
+import Tab3a from '../Pages/tab3a';
+import Tab3b from '../Pages/tab3b';
+import Tab3c from '../Pages/tab3c';
+import Tab3d from '../Pages/tab3d';
+import Tab3e from '../Pages/tab3e';
+import Tab3f from '../Pages/tab3f';
+import Tab3g from '../Pages/tab3g';
+import Tab3h from '../Pages/tab3h';
+import Tab3i from '../Pages/tab3i';
+import Tab3j from '../Pages/tab3j';
+import Tab3k from '../Pages/tab3k';
+import Tab3l from '../Pages/tab3l';
+
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,6 +73,9 @@ const Navbar = () => {
   {selectedModalContent === 'tab1d' && (
     <Tab1d isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
   )}
+    {selectedModalContent === 'tab1e' && (
+    <Tab1e isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
   {/* Add more components as needed */}
   <span onClick={() => openModal('tab1a')}>Carpenter installing curtains in Dammam 0504353061</span>
   <hr className='lina' />
@@ -66,7 +84,8 @@ const Navbar = () => {
   <span onClick={() => openModal('tab1c')}>Ras Tanura curtain installation 0505121891</span>
   <hr className='lina' />
   <span onClick={() => openModal('tab1d')}>Carpenter installing curtains in Al-Khobar 0505121891</span>
-  {/* Add more spans as needed */}
+  <hr className="lina" />
+  <span onClick={() => openModal('tab1e')}>Installing curtains in Dammam 0505121891</span>
 </p>
 
             </div>
@@ -116,36 +135,71 @@ const Navbar = () => {
             </div>
           </div>
 
-          
-
+        
           <div className={styles.navItem} tabIndex="3">
           <img src={drop} alt="foldersnap" className="folder" />
             Dismantling and installing furniture in Dammam
             <div className={styles.dropdown}>
               <p>
-                <span>Carpenter installing IKEA furniture in Dammam 0505121891</span>
+              {selectedModalContent === 'tab3a' && (
+    <Tab3a isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab3b' && (
+    <Tab3b isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab3c' && (
+    <Tab3c isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab3d' && (
+    <Tab3d isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+    {selectedModalContent === 'tab3e' && (
+    <Tab3e isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab3f' && (
+    <Tab3f isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab3g' && (
+    <Tab3g isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab3h' && (
+    <Tab3h isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+  {selectedModalContent === 'tab3i' && (
+    <Tab3i isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+    {selectedModalContent === 'tab3j' && (
+    <Tab3j isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+    {selectedModalContent === 'tab3k' && (
+    <Tab3k isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+    {selectedModalContent === 'tab3l' && (
+    <Tab3l isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
+                <span onClick={() => openModal('tab3a')}>Carpenter installing IKEA furniture in Dammam 0505121891</span>
                 <hr />
-                <span>Cheap carpenter in Dammam 0505121891</span>
+                <span onClick={() => openModal('tab3b')}>Cheap carpenter in Dammam 0505121891</span>
                 <hr />
-                <span>Carpenter teacher in Dammam 0505121891</span>
+                <span onClick={() => openModal('tab3c')}>Carpenter teacher in Dammam 0505121891</span>
                 <hr />
-                <span>Carpenter Saihat 056733794</span>
+                <span onClick={() => openModal('tab3d')}>Carpenter Saihat 056733794</span>
                 <hr />
-                <span>Carpenter installing bedrooms in Dammam 0505121891</span>
+                <span onClick={() => openModal('tab3e')}>Carpenter installing bedrooms in Dammam 0505121891</span>
                 <hr />
-                <span>Carpenter number in Dammam 0505121891</span>
+                <span onClick={() => openModal('tab3f')}>Carpenter number in Dammam 0505121891</span>
                 <hr />
-                <span>IKEA furniture istallation carpenter in Al Khobar 0504353061</span>
+                <span onClick={() => openModal('tab3g')}>IKEA furniture istallation carpenter in Al Khobar 0504353061</span>
                 <hr />
-                <span>Dammam carpentry workshop 0566733794</span>
+                <span onClick={() => openModal('tab3h')}>Dammam carpentry workshop 0566733794</span>
                 <hr />
-                <span>Dhahran carpenter 0505121891</span>
+                <span onClick={() => openModal('tab3i')}>Dhahran carpenter 0505121891</span>
                 <hr />
-                <span>Al Khobar carpenter 0505121891</span>
+                <span onClick={() => openModal('tab3j')}>Al Khobar carpenter 0505121891</span>
                 <hr />
-                <span>Carpenter teacher in Al Khobar 0505121891</span>
+                <span onClick={() => openModal('tab3k')}>Carpenter teacher in Al Khobar 0505121891</span>
                 <hr />
-                <span>Carpentry workshop in Al-Khobar 0566733794</span>
+                <span onClick={() => openModal('tab3l')}>Carpentry workshop in Al-Khobar 0566733794</span>
               </p>
             </div>
           </div>

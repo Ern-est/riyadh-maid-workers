@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './YourStyles.module.css'; // Replace with the correct path
 
-const tab1e = ({ isOpen, onClose, content }) => {
+const Tab1e = ({ isOpen, onClose, content }) => {
   if (!isOpen) {
     return null;
   }
@@ -22,4 +22,4 @@ const tab1e = ({ isOpen, onClose, content }) => {
   );
 };
 
-export default tab1e;
+export default Tab1e;
