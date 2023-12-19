@@ -6,12 +6,9 @@
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  padding: 0px;
-  border-top: 2px solid orange;
-  margin-top: 2rem;
-  margin-left: 8rem;
-  margin-bottom: 2rem;
-  width: 80%;
+  border-top: 3px solid orange;
+  margin: 0 auto;
+  max-width: 1000px;
   border-left: 1px solid rgb(204, 200, 200);
   border-right: 1px solid rgb(204, 200, 200);
   border-bottom: 1px solid orange;
@@ -21,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgb(235, 234, 234);
 }
 
 .searchContainer {
@@ -32,7 +30,7 @@
   background-color: orange;
   border: none;
   cursor: pointer;
-  padding: 4px;
+  
 }
 
 .logo {
@@ -41,15 +39,15 @@
 }
 
 .searchInput {
-  margin-left: 10px;
-  padding: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 95px;
+  height: 20px;
 }
 
 .wifiButton {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin-right: 36rem;
 }
 
 .samplePage {
@@ -64,6 +62,7 @@
 .boldText {
   font-weight: bold;
   font-size: 3rem;
+  float: right;
   color: rgb(73, 71, 71);
 }
 
@@ -73,8 +72,8 @@
 
 .normalText {
   font-weight: normal;
-  margin-left: 34rem;
-  color: rgb(122, 121, 121);
+  float: right;
+  color: rgb(53, 52, 52);
 
 }
 

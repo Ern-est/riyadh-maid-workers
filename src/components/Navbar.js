@@ -12,22 +12,19 @@ const Navbar = () => {
             <img src={searchLogo} alt="Search" className={styles.logo} />
           </button>
           <input type="text" placeholder="Type here..." className={styles.searchInput} />
-        </div>
-        <button className={styles.wifiButton}>
+          <button className={styles.wifiButton}>
           <img src={rssLogo} alt="WiFi" className={styles.logo} />
         </button>
+        </div>
         <span className={styles.samplePage}>Sample Page</span>
       </div>
-      <div>
-        <p>
-          <hr />
-        </p>
-      </div>
+      
       <div className={styles.pgh}>
-        <p className={styles.boldText} title="Al-Rwda is a maintenance, dismantling, and installation company for air conditioners, dismantling and installing furniture and kitchens">
-          Al-Rawda is a maintenance, dismantling, and installation company for air conditioners, dismantling and installing furniture and kitchens 
+        <p>
+        <span className={styles.boldText}>Al-Rawda is a maintenance, dismantling, and installation company for air conditioners, dismantling and installing furniture and kitchens </span>
+        <span className={styles.normalText}>Carpenter dismantling and installing furniture, kitchens, and curtains</span>
         </p>
-        <p className={styles.normalText}>Carpenter dismantling and installing furniture, kitchens, and curtains</p>
+
       </div>
       {<Dropdown />}
     </div>

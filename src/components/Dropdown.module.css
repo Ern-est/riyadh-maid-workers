@@ -7,14 +7,12 @@
   justify-content: center;
   font-size: 13px;
   align-items: center;
-  padding: 6px;
   color: rgb(218, 213, 213);
   transition: all 0.3s;
   background-color: rgb(46, 45, 45);
   border-bottom: 4px solid orange;
-  width: 99% auto;
+  max-width: 1000px auto;
   height: 90%;
-  margin: 0 auto;
 }
 
 .menuIcon {
@@ -33,7 +31,7 @@
 .navLinks {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 4px;
   gap: 8px;
 }
 
@@ -103,8 +101,4 @@
   .row {
     flex-direction: column;
   }
-}
-.folder {
-  height: 5px;
-  width: 2px;
 }
