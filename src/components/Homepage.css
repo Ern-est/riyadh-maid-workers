@@ -19,17 +19,9 @@
   padding-top: 3px;
 }
 .caller {
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(219, 217, 217);
+  padding-left: 6rem;
 }
-.number {
-  background-color: rgba(255, 0, 0, 0.788);
-  font-size: 28px;
-  color: #fff;
-  border-radius: 3px;
-  
-}
+
 .media {
   justify-content: center;
   align-items: center;
@@ -76,6 +68,15 @@
   width: 64%;
   line-height: 22px;
   border: 1px solid rgb(233, 232, 232);
+}
+.signin {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+.ref {
+  text-decoration: none;
+  color: rgb(99, 98, 98);
+
 }
 .header {
   display: grid;

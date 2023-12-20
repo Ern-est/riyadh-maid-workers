@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Homepage.css'
+import { Link } from 'react-router-dom';
 import qr from '../Assets/qr.jpg';
 import fold2 from '../Assets/fold2.png';
 import call from '../Assets/call.png'
@@ -10,7 +11,20 @@ import upon from '../Assets/upon.png'
 import twit from '../Assets/twit.png'
 import google from '../Assets/Google.png'
 import profile from '../Assets/profile.jpg'
+import Number from './Number';
 const Homepage = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedModalContent, setSelectedModalContent] = useState(null);
+
+
+  const openModal = (content) => {
+    setSelectedModalContent(content);
+  };
+
+  const closeModal = () => {
+    setSelectedModalContent(null);
+  };
+
   return (
     
     <div className="homer">
@@ -18,6 +32,9 @@ const Homepage = () => {
           <div className="start">
             <div className="left">
               <p>
+              {selectedModalContent === 'Number' && (
+    <Number isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
+  )}
                 <h2>SIMILAR ARTICLES</h2>
                 <h3>Office of monthly maids in Riyadh 0583595089</h3>
                 <span>November 11, 2020</span>
@@ -51,8 +68,7 @@ const Homepage = () => {
               <span><b>Domestic labor rental companies in Riyadh</b> also provide Indonesian maids, as this type has a wonderful touch in cleaning bathrooms and floors.Beacause of the expirience and skill they possess, they are highly conscientious in terms of performing household chores with perfection and incredible freedom, and one of the things that maids in <b>hourly maid rental offices in Riyadh</b> are most keen on in performing household chores is to preserve the health of the children, so the housewife can leave Her Child with her without any worry or fear</span>
             </p>
             <div className="caller">
-            <img src={call} alt="" className='call'/>
-            <span className='number'>0505718578</span>
+            <img src={call} onClick={() => openModal('Number')} alt="" className='call'/>
             </div>
             <p>
               <h1>Expirienced hourly workers in Riyadh</h1>
@@ -67,8 +83,7 @@ const Homepage = () => {
               <span>Credibility and proffesionalism in work are the most important features of <b>an hourly cleaning office in Riyadh</b>, as we offer customers the best services from time to time in order to obtain the best results. <b>Hourly workers in Riyadh</b> have aa great deal of proffesionalism and proffesionalism, thanks to the efforts made by <b>the hourly cleaning office. In Riyadh,</b> it was able to completely change customer's minds about services that do not reach the level of proffessionalism from other companies</span>
             </p>
             <div className="caller">
-              <img src={call} alt="" className="call" />
-              <span className="number">0505718578</span>
+            <img src={call} onClick={() => openModal('Number')} alt="" className='call'/>
             </div>
             <p>
               <h1>Hourly domestic workers in Riyadh</h1>
@@ -83,8 +98,7 @@ const Homepage = () => {
               <span><b>An hourly maid in Riyadh</b> can make all Eastern and western sweets, and she can wash dishes and do anything the house needs. When you hire an <b>hourly cleaning office in Riyadh</b>, you will be in safe hands, and our prices are unbeatable, as we can provide the best <b>hourly services in Riyadh</b> is oe of those who have the proffesionalism at the lowest prices, and our prices are suitable for every housewife and every Saudi home</span>
             </p>
             <div className="caller">
-              <img src={call} alt="" className="call" />
-              <span className="number">0505718578</span>
+            <img src={call} onClick={() => openModal('Number')} alt="" className='call'/>
             </div>
             <p>
               <h1>Companies that rent hourly miads in Riyadh</h1>
@@ -103,8 +117,7 @@ const Homepage = () => {
               <span>As for the special prices for maids for rent by the hour in Riyadh from <b>companies that rent domestic workers in Riyadh</b>, they are prices that suit all categories in the Kingdom of Saudi Arabia. They are also competitive prices when compared to other pricews of companies that <b>rent maids and domestic workers in Riyadh.</b> All that a company <b>that rents maids by the hour in Riyadh</b> wants is to get its good reputation, gaining the trust of valued customers in all regions of the Kingdom of Saudi Arabia, especially in the Riyadh region, and saving the effort and fatigue that a person expends in searching for a maid</span>
             </p>
             <div className="caller">
-              <img src={call} alt="" className="call" />
-              <span className="number">0505718578</span>
+            <img src={call} onClick={() => openModal('Number')} alt="" className='call'/>
             </div>
             <p>
               <h1>Maids in Riyadh</h1>
@@ -132,22 +145,22 @@ const Homepage = () => {
             </p>
             <hr className="stripp" />
             <div className="media">
-            <a href="https://www.facebook.com/Anest Cheruu">
+            <a href="https://www.linkedin.com/">
             <img src={linkedin} alt="" className='fb'/>
           </a>
-          <a href="https://www.facebook.com/Anest Cheruu">
+          <a href="https://www.stumbleupon.com/">
             <img src={upon} alt="" className='fb'/>
           </a>
-          <a href="https://www.facebook.com/Anest Cheruu">
+          <a href="https://www.google.com/">
             <img src={google} alt="" className='fb'/>
           </a>
-          <a href="https://www.facebook.com/Anest Cheruu">
+          <a href="https://www.twitter.com/">
             <img src={twit} alt="" className='fb'/>
           </a>
-          <a href="https://www.facebook.com/Anest Cheruu">
+          <a href="https://www.facebook.com/">
             <img src={facebook} alt="" className='fb'/>
           </a>
-          <a href="https://www.facebook.com/Anest Cheruu">
+          <a href="https://www.pinterest.com/">
             <img src={pin} alt="" className='fb'/>
           </a>
             </div>
@@ -174,8 +187,8 @@ const Homepage = () => {
           <div className="tex">
           <img src={qr} alt="qrcode" className="rq" />
         <div className="search">
-          <input type="text" className='init' placeholder='...research' />
-          <button className="butt">research</button>
+          <input type="text" className='init' placeholder='...research' value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+          <button className="butt" onClick={() => setSearchQuery('')}>research</button>
           </div>
           </div>
         
@@ -1332,14 +1345,15 @@ const Homepage = () => {
           </div>
           <div className="research">
             <p>
-              <span>Sign in</span>
+              <Link to="/Loginform">
+              <span className='signin'>Sign in</span>
+              </Link>
               <hr />
               <span>Feed entries</span>
               <hr />
               <span>Summary of comments</span>
               <hr />
-              <span>Wordpress.org</span>
-              <hr />
+              <a href="https://ar.wordpress.org/" className='ref'>Wordpress.org</a>
             </p>
           </div>
       </div>

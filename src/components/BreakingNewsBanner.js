@@ -25,7 +25,8 @@ const BreakingNewsBanner = () => {
           
         ))}
       </div>
-      <h2>BREAKING NEWS</h2>
+      <h2 className='break'>BREAKING NEWS</h2>
+      
     </div>
   );
 };

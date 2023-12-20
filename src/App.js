@@ -1,15 +1,16 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import ScrollToTopButton from './components/ScrollToTopButton';
-import Footer from './components/Footer'
+import Loginform from './components/Loginform';
 function App() {
   return (
     <div className="App">
-      <>
-      <Home />
-      <ScrollToTopButton/>
-      <Footer />
-      </>
+            <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Loginform" element={<Loginform />} />
+        </Routes>
+      </Router>
+      
     </div>
   );
 }

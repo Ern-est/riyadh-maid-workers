@@ -61,6 +61,7 @@ const Navbar = () => {
             Installing curtains in Dammam and Al-Khobar
             <div className={styles.dropdown}>
             <p>
+            
   {selectedModalContent === 'tab1a' && (
     <Tab1a isOpen={!!selectedModalContent} onClose={closeModal} content={<p>{selectedModalContent}</p>} />
   )}

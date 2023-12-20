@@ -2,10 +2,16 @@
 
 const newsData = [
     'Landscaping teacher in Riyadh',
-    'City paints teacher, Al-Rabwa district',
-    'Paints teacher in the city, King Fahd District, 0510865923',
-    'Mallis West Riyadh 0540017022',
-    'City decoration technician, Sayyid Al-Shuhada district, 0510865923',
+    'Nurses for monthly rent in Riyadh',
+    'Mallis west in Riyadh 0540017022',
+    'Hourly maids, Riyadh',
+    'Hourly workers north of Riyadh',
+    'Mallis west Riyadh 0540017022',
+    'Maids in the month, north of Riyadh',
+    'Hourly domestic worker in Riyadh',
+    'City paint Teacher in Riyadh, Al Rabwa District, 0510865923',
+    'Paint Teacher in the city  King Fadh District 0510865923',
+    'Female workers in the north of Riyadh',
   ];
   
   export default newsData;
